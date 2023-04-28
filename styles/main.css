@@ -30,4 +30,5 @@ ol,ul {
 
 #homeImage {
     padding: 79px;
+    width: -webkit-fill-available;
 }
