@@ -1,0 +1,166 @@
+        body {
+            background-color: #DDE0E6;
+        }
+
+        .text-header {
+            color: #BBC6D7;
+        }
+
+        #content_pic {
+            width: 350px;
+
+        }
+
+        footer,
+        header {
+            background-color: #283854;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #283854;
+            color: #ffffff;
+        }
+
+        .bi-linkedin,
+        .bi-github,
+        .bi-youtube {
+            padding-left: .5em;
+        }
+
+        .skContent {
+            padding-left: 1em;
+            color: #FFFFFF;
+            font-size: 1.5em;
+            line-height: 2.5em;
+        }
+
+        .title,
+        #left-menu li a {
+            color: #FF7400;
+        }
+
+        #left-menu li a {
+            font-weight: 700;
+        }
+
+        /* small screen */
+        @media screen and (max-width: 600px) {
+            #submit {
+                text-align: center;
+            }
+        }
+
+        /* medium screen */
+        @media screen and (max-width: 991px) and (min-width: 601px) {
+            #submit {
+                padding-top: 0rem;
+                text-align: center;
+            }
+        }
+
+        /* large screen */
+        @media screen and (max-width: 2000px) and (min-width: 992px) {
+            #submit {
+                padding-top: 6.5rem;
+                text-align: center;
+            }
+        }
+
+        #profile {
+            position: relative;
+            width: 12%;
+            left: 7%;
+        }
+
+        @media screen and (max-width: 573px) {
+            #profile {
+                top: -1.5em;
+            }
+        }
+
+        @media screen and (max-width: 740px) and (min-width: 573px) {
+            #profile {
+                top: -2.25em;
+            }
+        }
+
+        @media screen and (max-width: 900px) and (min-width: 741px) {
+            #profile {
+                top: -3.5em;
+            }
+        }
+
+        @media screen and (max-width: 1200px) and (min-width: 900px) {
+            #profile {
+                top: -4em;
+            }
+        }
+
+        @media screen and (max-width: 2000px) and (min-width: 1200px) {
+            #profile {
+                top: -5em;
+            }
+        }
+
+        @media screen and (max-width: 440px) {
+            #about {
+                margin-top: 0em;
+                margin-left: 1.5em;
+            }
+        }
+
+        @media screen and (max-width: 575px) and (min-width: 441px) {
+            #about {
+                margin-top: 0em;
+                margin-left: 3em;
+            }
+        }
+
+        @media screen and (max-width: 900px) and (min-width: 576px) {
+            #about {
+                margin-top: 0em;
+                margin-left: 0em;
+            }
+        }
+
+        @media screen and (max-width: 1200px) and (min-width: 901px) {
+            #about {
+                margin-top: -4em !important;
+
+            }
+        }
+
+        @media screen and (max-width: 1200px) and (min-width: 992px) {
+            #tabs {
+                margin-top: -4em !important;
+
+            }
+        }
+
+        @media screen and (max-width: 1400px) and (min-width: 1201px) {
+
+            #about,
+            #tabs {
+                margin-top: -5em !important;
+
+            }
+        }
+
+        @media screen and (max-width: 1600px) and (min-width: 1401px) {
+
+            #about,
+            #tabs {
+                margin-top: -6em !important;
+
+            }
+        }
+
+        @media screen and (max-width: 2000px) and (min-width: 1601px) {
+
+            #about,
+            #tabs {
+                margin-top: -8em !important;
+
+            }
+        }
