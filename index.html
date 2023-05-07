@@ -9,6 +9,9 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo|Quattrocento+Sans" rel="stylesheet">
 </head>
 
 <body>
@@ -18,35 +21,35 @@
         <nav class="navbar navbar-expand-md">
             <div class="container">
                 <div class="row">
-                    <a class="col-9 display-6 text-decoration-none" href="#">EHSAN MOTLAGH</a>
+                    <a class="col-9 display-6 text-decoration-none fw-bold text-header font-chivo" href="index.html">EHSAN MOTLAGH</a>
                     <!-- TODO: change icon -->
-                    <button class="navbar-toggler navbar-light bg-light  col-2 me-1" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#navbarMainHeader" aria-controls="navbarMainHeader"
+                    <button class="navbar-toggler navbar-light bg-light col-2 me-1" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navBarMain" aria-controls="navBarMain"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="col-3 offset-9">
-                        <div class="collapse navbar-collapse" id="navbarMainHeader">
+                        <div class="collapse navbar-collapse" id="navBarMain">
                             <ul class="navbar-nav">
                                 <li class="nav-item ">
-                                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active text-light font-quat" aria-current="page" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link ms-auto text-light" href="#">Contact</a>
+                                    <a class="nav-link ms-auto text-light font-quat" href="#">Contact</a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link ms-auto text-light" href="#">Hobbies</a>
+                                    <a class="nav-link ms-auto text-light font-quat" href="hobbies.html">Hobbies</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-7 font-chivo">
                         FULL STACK DEVELOPER
                     </div>
 
 
                 </div>
-                <div class="col-2 offset-9">
+                <div class="col-2 offset-9 font-quat">
                     Montreal
                 </div>
 
@@ -58,13 +61,14 @@
 
         <div class="container">
             <div class="row">
-                <a class="col-10 display-4 text-decoration-none text-center fw-bold text-header" href="#">
+                <a class="col-10 display-4 text-decoration-none text-center fw-bold text-header font-chivo"
+                    href="index.html">
                     EHSAN MOTLAGH
                 </a><!-- TODO: change icon -->
-                <div class="col-6 text-center text-header offset-2">
+                <div class="col-6 text-center text-header offset-2 font-chivo">
                     FULL STACK DEVELOPER</div>
 
-                <div class="d-flex flex-row-reverse p-2">Montreal</div>
+                <div class="d-flex flex-row-reverse p-2 font-quat">Montreal</div>
             </div>
         </div>
     </header>
@@ -81,112 +85,112 @@
                 <nav class="col-2 d-none d-sm-block col-lg-2 col-md-2 col-sm-3">
                     <ul class="navbar-nav" id="left-menu">
                         <li class="nav-item ">
-                            <a class="nav-link active " aria-current="page" href="#">
+                            <a class="nav-link active font-quat" aria-current="page" href="index.html">
                                 <i class="bi bi-house-fill text-dark"></i>
                                 Home</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link ms-auto" href="#">
+                            <a class="nav-link ms-auto font-quat" href="#">
                                 <i class="bi bi-person-rolodex text-dark"></i>
                                 Contact</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link ms-auto" href="#">
+                            <a class="nav-link ms-auto font-quat" href="hobbies.html">
                                 <i class="bi bi-activity text-dark"></i>
                                 Hobbies</a>
                         </li>
                     </ul>
                 </nav>
                 <!-- picture/text -->
-                
-                    <div class="col-10 offset-1 col-sm-8 col-md-9 col-lg-4 offset-lg-1" id="about">
-                        <img src="./images/img/sabalan.jpg" alt="profile photo" id="content_pic">
-                        <div class="h1">About</div>
-                        <p>
-                            The picture is not refered to my job skills.Yes Its a mountain called Sabalan near my
-                            hometown. I love nature and mountans.
-                        <div>
-                            Currently studying <span class="text-uppercase"> full stack develompent</span> in <span
-                                class="text-capitalize">john abbott college.</span>
-                            I have some leadership experties where I worked in a warehouse as coordinator leading almost
-                            60 associates.
-                            <div>I like solving problems when it comes to copmuters and programming.</div>
-                            <div>Hoping to get a job in develompent field after my study ends.</div>
-                        </div>
-                        </p>
+
+                <div class="col-10 offset-1 col-sm-8 col-md-9 col-lg-4 offset-lg-1" id="about">
+                    <img src="./images/img/sabalan.jpg" alt="profile photo" id="content_pic">
+                    <h1 class="font-chivo">About</h1>
+                    <p class="font-quat">
+                        The picture is not refered to my job skills.Yes Its a mountain called Sabalan near my
+                        hometown. I love nature and mountans.
+                    <div class="font-quat">
+                        Currently studying <span class="text-uppercase"> full stack develompent</span> in <span
+                            class="text-capitalize">john abbott college.</span>
+                        I have some leadership experties where I worked in a warehouse as coordinator leading almost
+                        60 associates.
+                        <div>I like solving problems when it comes to copmuters and programming.</div>
+                        <div>Hoping to get a job in develompent field after my study ends.</div>
                     </div>
-                    <!-- tabs -->
-                    <div class="col-10 offset-1 mt-4 col-sm-8 offset-sm-4 col-md-9 offset-md-3 col-lg-4 offset-lg-1 mt-lg-0"
-                        id="tabs">
-                        <nav>
-                            <div class="nav nav-tabs bg-dark " id="nav-tab" role="tablist">
-                                <button class="nav-link active bg-dark text-light" id="nav-home-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                                    aria-selected="true">Skills</button>
-                                <button class="nav-link bg-dark text-light" id="nav-profile-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
-                                    aria-selected="false">Education</button>
-                                <button class="nav-link bg-dark text-light" id="nav-contact-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
-                                    aria-selected="false">Experiences</button>
+                    </p>
+                </div>
+                <!-- tabs -->
+                <div class="col-10 offset-1 mt-4 col-sm-8 offset-sm-4 col-md-9 offset-md-3 col-lg-4 offset-lg-1 mt-lg-0"
+                    id="tabs">
+                    <nav>
+                        <div class="nav nav-tabs bg-dark " id="nav-tab" role="tablist">
+                            <button class="nav-link active bg-dark text-light font-chivo" id="nav-home-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                aria-selected="true">Skills</button>
+                            <button class="nav-link bg-dark text-light font-chivo" id="nav-profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                aria-selected="false">Education</button>
+                            <button class="nav-link bg-dark text-light font-chivo" id="nav-contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                                aria-selected="false">Experiences</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active bg-dark" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="text-light">
+                                <span class="title p-2 font-quat"> public static void </span> Skills{
                             </div>
-                        </nav>
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active bg-dark" id="nav-home" role="tabpanel"
-                                aria-labelledby="nav-home-tab">
-                                <div class="text-light">
-                                    <span class="title p-2"> public static void </span> Skills{
-                                </div>
 
-                                <div class="skContent pt-3">Help desk;</div>
-                                <div class="skContent">Troubleshouting;</div>
-                                <div class="skContent">Customer servise;</div>
-                                <div class="skContent">Java;</div>
-                                <div class="skContent">HTML/CSS;</div>
-                                <div class="skContent">ms SQLserver;</div>
-                                <div class="text-light p-2">}</div>
+                            <div class="skContent pt-3 ">Help desk;</div>
+                            <div class="skContent ">Troubleshouting;</div>
+                            <div class="skContent ">Customer servise;</div>
+                            <div class="skContent ">Java;</div>
+                            <div class="skContent ">HTML/CSS;</div>
+                            <div class="skContent ">ms SQLserver;</div>
+                            <div class="text-light p-2">}</div>
+                        </div>
+                        <div class="tab-pane fade bg-dark" id="nav-profile" role="tabpanel"
+                            aria-labelledby="nav-profile-tab">
+
+                            <div class="text-light">
+                                <span class="title p-2"> public static void </span> Education{
                             </div>
-                            <div class="tab-pane fade bg-dark" id="nav-profile" role="tabpanel"
-                                aria-labelledby="nav-profile-tab">
 
-                                <div class="text-light">
-                                    <span class="title p-2"> public static void </span> Education{
-                                </div>
+                            <div class="skContent pt-3">John Abbott(full stack, Canada);</div>
+                            <div class="skContent">MCIT(Big Data, Canada);</div>
+                            <div class="skContent">
+                                Elmi Karbordi(web programming, Iran);</div>
+                            <div class="skContent">Azad University(IT, Iran);</div>
+                            <div class="text-light p-2">}</div>
 
-                                <div class="skContent pt-3">John Abbott(full stack, Canada);</div>
-                                <div class="skContent">MCIT(Big Data, Canada);</div>
-                                <div class="skContent">
-                                    Elmi Karbordi(web programming, Iran);</div>
-                                <div class="skContent">Azad University(IT, Iran);</div>
-                                <div class="text-light p-2">}</div>
+                        </div>
+                        <div class="tab-pane fade bg-dark" id="nav-contact" role="tabpanel"
+                            aria-labelledby="nav-contact-tab">
 
+                            <div class="text-light">
+                                <span class="title p-2"> public static void </span> Experience{
                             </div>
-                            <div class="tab-pane fade bg-dark" id="nav-contact" role="tabpanel"
-                                aria-labelledby="nav-contact-tab">
 
-                                <div class="text-light">
-                                    <span class="title p-2"> public static void </span> Experience{
-                                </div>
-
-                                <div class="skContent pt-3">SSENSE(op Coordinator, Canada);</div>
-                                <div class="skContent">Private Business Owner(Iran);</div>
-                                <div class="skContent">
-                                    IT Support Technician(Iran);</div>
-                                <div class="skContent">
-                                    Sales Representative(Iran);</div>
-                                <div class="skContent">
-                                    Chief Technology Officer(Iran);</div>
-                                <div class="text-light p-2">}</div>
-                            </div>
+                            <div class="skContent pt-3">SSENSE(op Coordinator, Canada);</div>
+                            <div class="skContent">Private Business Owner(Iran);</div>
+                            <div class="skContent">
+                                IT Support Technician(Iran);</div>
+                            <div class="skContent">
+                                Sales Representative(Iran);</div>
+                            <div class="skContent">
+                                Chief Technology Officer(Iran);</div>
+                            <div class="text-light p-2">}</div>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
 
     </section>
 
     <!-- footer -->
-    <footer class="mt-2 pb-4">
+    <footer class="mt-2 pb-4 font-quat">
         <div class="container">
             <div class="row">
                 <!-- links -->
@@ -255,19 +259,6 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>

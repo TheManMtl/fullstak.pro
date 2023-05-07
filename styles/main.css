@@ -2,6 +2,14 @@
             background-color: #DDE0E6;
         }
 
+        .font-chivo {
+            font-family: 'Chivo', sans-serif;
+        }
+
+        .font-quat {
+            font-family: 'Quattrocento Sans', sans-serif;
+        }
+
         .text-header {
             color: #BBC6D7;
         }
@@ -31,8 +39,21 @@
         .skContent {
             padding-left: 1em;
             color: #FFFFFF;
-            font-size: 1.5em;
+            font-size: 1.2em;
             line-height: 2.5em;
+            font-family: 'Quattrocento Sans', sans-serif;
+        }
+
+        .title {
+            font-family: 'Quattrocento Sans', sans-serif;
+        }
+
+        h5 {
+            font-family: 'Chivo', sans-serif
+        }
+
+        .card-text {
+            font-family: 'Quattrocento Sans', sans-serif;
         }
 
         .title,
