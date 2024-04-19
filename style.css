@@ -1,0 +1,52 @@
+.body{
+    background-color: black;
+    color: azure;
+}
+
+#download{
+    display: block;
+    width: 30rem;
+}
+
+.photo{
+    width: 20%;
+    height: 16rem;
+}
+
+.mi-title{
+    color: #40E0D0;
+}
+
+.about{
+    color: #FF4040;
+}
+
+.info li .first-block {
+    width: 30%;
+    display: inline-block;
+    font-weight: bold;
+  }
+  .info li .second-block {
+    width: 40%;
+    display: inline-block;
+  }
+
+  #icons-tech i{
+    padding-right: 1rem;
+  }
+
+  h1{
+    font-family: tac-one-regular;
+  }
+
+  #titles h4{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .card-title{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
